@@ -38,4 +38,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     //My library
     implementation 'com.google.firebase:firebase-database:20.0.3'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.ss.bannerslider:bannerslider:2.0.0'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
 }
