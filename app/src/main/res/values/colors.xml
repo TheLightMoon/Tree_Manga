@@ -10,4 +10,10 @@
     <!--My color customize-->
     <color name="Gold">#FFD700</color>
     <color name="Green">#008000</color>
+    <color name="Ice_Blue">#C8E9E9</color>
+    <color name="Aqua">#00FFFF</color>
+    <!-- =====Banner Slider===== -->
+    <color name="Red">#FF0000</color>
+    <color name="Yellow">#FFFF00</color>
+    <color name="Lime">#00FF00</color>
 </resources>
