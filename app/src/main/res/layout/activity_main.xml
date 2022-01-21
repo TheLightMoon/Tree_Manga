@@ -17,7 +17,9 @@
             android:layout_width="match_parent"
             android:layout_height="195dp"
             android:background="@color/Aqua"
-            android:id="@+id/banner_slider"/>
+            android:id="@+id/banner_slider">
+            
+        </ss.com.bannerslider.Slider>
 
         <LinearLayout
             android:layout_width="match_parent"

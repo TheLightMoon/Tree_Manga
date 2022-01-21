@@ -32,7 +32,7 @@ import ss.com.bannerslider.Slider;
 
 public class MainActivity extends AppCompatActivity implements InterfaceBannerLoad, InterfaceMangaLoad {
     //Slider Banner (SB)
-    Slider banner_slider;
+    Slider slider;
     //Swipe Refresh Layout (SRL)
     SwipeRefreshLayout swipeRefreshLayout;
     //Recycler View (RV)
@@ -55,13 +55,13 @@ public class MainActivity extends AppCompatActivity implements InterfaceBannerLo
         setContentView(R.layout.activity_main);
 
         //RB: B, M
-        banners = FirebaseDatabase.getInstance().getReference(" Banners");
+        banners = FirebaseDatabase.getInstance().getReference("Banners");
         mangas = FirebaseDatabase.getInstance().getReference("Mangas");
         //CI: B, M
         bannerListener = this;
         mangaListener = this;
         //SB
-        banner_slider = findViewById(R.id.banner_slider);
+        slider = findViewById(R.id.banner_slider);
         Slider.init(new PicassoLoadingService());
         //SRL, load banner, load manga (LB, LM)
         swipeRefreshLayout = findViewById(R.id.swipe_refresh);
@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity implements InterfaceBannerLo
 
     @Override
     public void onBannerLoadListener(List<String> banners) {
-        banner_slider.setAdapter(new ForBannerSliderAdapter(banners));
+        slider.setAdapter(new ForBannerSliderAdapter(banners));
     }
 
     @Override
