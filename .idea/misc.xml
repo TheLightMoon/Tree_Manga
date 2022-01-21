@@ -5,9 +5,11 @@
       <map>
         <entry key="..\:/Users/nguye/AndroidStudioProjects/TreeManga/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2128205128205128" />
         <entry key="..\:/Users/nguye/AndroidStudioProjects/TreeManga/app/src/main/res/drawable/ic_search_24.xml" value="0.20185185185185187" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/TreeManga/app/src/main/res/drawable/manga_book.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/nguye/AndroidStudioProjects/TreeManga/app/src/main/res/drawable/splash_launcher.xml" value="0.2128205128205128" />
         <entry key="..\:/Users/nguye/AndroidStudioProjects/TreeManga/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/nguye/AndroidStudioProjects/TreeManga/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/TreeManga/app/src/main/res/layout/manga_book.xml" value="0.14" />
       </map>
     </option>
   </component>

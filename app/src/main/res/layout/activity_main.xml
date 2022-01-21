@@ -15,15 +15,15 @@
 
         <ss.com.bannerslider.Slider
             android:layout_width="match_parent"
-            android:layout_height="155dp"
+            android:layout_height="195dp"
             android:background="@color/Aqua"
             android:id="@+id/banner_slider"/>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="29dp"
+            android:layout_height="31dp"
             android:orientation="horizontal"
-            android:padding="2dp"
+            android:padding="3dp"
             android:background="@color/Green">
 
             <TextView
@@ -46,7 +46,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:id="@+id/button_search"
-                android:src="@drawable/ic_search_24"/>
+                android:src="@drawable/ic_search_24"
+                tools:ignore="ContentDescription" />
 
         </LinearLayout>
 
