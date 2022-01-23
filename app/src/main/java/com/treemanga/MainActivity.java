@@ -41,11 +41,9 @@ public class MainActivity extends AppCompatActivity implements InterfaceBannerLo
     TextView manga_txt;
     //Realtime Database: Banners, Manga (RB: B, M)
     DatabaseReference banners, mangas;
-
     //Call interface Banner, Manga (CI: B, M)
     InterfaceBannerLoad bannerListener;
     InterfaceMangaLoad mangaListener;
-
     //Alert Dialog (AD)
     AlertDialog alertDialog;
 
