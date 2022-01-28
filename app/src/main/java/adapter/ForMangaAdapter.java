@@ -49,13 +49,12 @@ public class ForMangaAdapter extends RecyclerView.Adapter<ForMangaAdapter.TheVie
         Picasso.get().load(mangaList.get(position).Image).into(holder.manga_image);
         holder.manga_name.setText(mangaList.get(position).Name);
         //Event onclick
-        holder.setRecyclerItemClickListener(new InterfaceRecyclerItemClickListener() {
-            @Override
-            public void onClick(View view, int position) {
-                //Save mangaSelected
-                Common.mangaSelected = mangaList.get(position);
-                context.startActivity(new Intent(context, ChapterActivity.class));
-            }
+        holder.setRecyclerItemClickListener((view, position1) -> {
+            //Save mangaSelected
+            Common.mangaSelected = mangaList.get(position1);
+            Intent intent = new Intent(context, ChapterActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            context.startActivity(intent);
         });
     }
 

@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/toolbar"
         android:minHeight="?attr/actionBarSize"
-        android:background="@color/Aqua" />
+        android:background="@color/Aqua"
+        app:titleTextColor="@color/Red"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,7 +29,8 @@
             android:text="CHAPTER (00)"
             android:textSize="19sp"
             android:textStyle="bold"
-            android:textColor="@color/Gold"/>
+            android:textColor="@color/Gold"
+            tools:ignore="HardcodedText" />
 
     </LinearLayout>
 
