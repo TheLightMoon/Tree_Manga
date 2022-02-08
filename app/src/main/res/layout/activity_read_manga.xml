@@ -26,11 +26,10 @@
             android:layout_toEndOf="@+id/chapter_back"
             android:layout_toStartOf="@+id/chapter_next"
             android:gravity="center_horizontal"
-            android:text="No pager"
+            android:text="@string/no_pager"
             android:textColor="@color/Red"
             android:textSize="25sp"
-            android:textStyle="normal"
-            tools:ignore="HardcodedText" />
+            android:textStyle="normal" />
 
         <View
             android:layout_width="50dp"

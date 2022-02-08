@@ -26,11 +26,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/text_name_chapter"
-            android:text="CHAPTER (00)"
+            android:text="@string/chapter_number_total"
             android:textSize="19sp"
             android:textStyle="bold"
-            android:textColor="@color/Gold"
-            tools:ignore="HardcodedText" />
+            android:textColor="@color/Gold" />
 
     </LinearLayout>
 

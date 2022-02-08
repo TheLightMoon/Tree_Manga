@@ -10,10 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/text_number_chapter"
-        android:text="CHAPTER 1"
+        android:text="@string/chapter_number"
         android:textColor="@color/Gold"
         android:textStyle="normal"
-        android:textSize="19sp"
-        tools:ignore="HardcodedText" />
+        android:textSize="19sp" />
 
 </RelativeLayout>

@@ -27,13 +27,13 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/name_manga"
                 android:background="@color/Green"
-                android:text="Manga name"
+                android:text="@string/name_manga"
                 android:textStyle="bold"
                 android:textColor="@color/Gold"
                 android:layout_gravity="bottom"
                 android:textAlignment="center"
                 android:padding="1dp"
-                tools:ignore="HardcodedText,RtlCompat" />
+                tools:ignore="RtlCompat" />
 
         </FrameLayout>
 

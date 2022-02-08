@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">TreeManga</string>
+    <string name="all_manga">ALL MANGAS</string>
+    <string name="name_manga">Manga name</string>
+    <string name="new_manga_number">NEW MANGA (00)</string>
+    <string name="chapter_number_total">CHAPTER (00)</string>
+    <string name="no_pager">NO PAGER</string>
+    <string name="chapter_number">CHAPTER 1</string>
+    <string name="version_number">Ver 1.0.0</string>
 </resources>

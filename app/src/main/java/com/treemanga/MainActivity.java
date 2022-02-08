@@ -1,7 +1,10 @@
 package com.treemanga;
 
 import android.app.AlertDialog;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -46,6 +49,8 @@ public class MainActivity extends AppCompatActivity implements InterfaceBannerLo
     InterfaceMangaLoad mangaListener;
     //Alert Dialog (AD)
     AlertDialog alertDialog;
+    //Image View (IV)
+    ImageView filter_search_iv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,6 +63,14 @@ public class MainActivity extends AppCompatActivity implements InterfaceBannerLo
         //CI: B, M
         bannerListener = this;
         mangaListener = this;
+        //IV
+        filter_search_iv = findViewById(R.id.button_filter_search);
+        filter_search_iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, FilterSearchActivity.class));
+            }
+        });
         //SB
         slider = findViewById(R.id.banner_slider);
         Slider.init(new PicassoLoadingService());
