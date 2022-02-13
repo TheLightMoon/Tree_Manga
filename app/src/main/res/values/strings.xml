@@ -7,4 +7,10 @@
     <string name="no_pager">NO PAGER</string>
     <string name="chapter_number">CHAPTER 1</string>
     <string name="version_number">Ver 1.0.0</string>
+    <string name="menu_filter">Filter</string>
+    <string name="menu_search">Search</string>
+    <string name="choose_category">Enter category.</string>
+    <string name="category_name">Enter name.</string>
+    <string name="category">Action</string>
+    <string name="menu_tags">Tags</string>
 </resources>

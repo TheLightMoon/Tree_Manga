@@ -12,14 +12,23 @@
         <entry key="..\:/Users/nguye/AndroidStudioProjects/TreeManga/app/src/main/res/layout/manga_book.xml" value="0.14" />
         <entry key="..\:/Users/nguye/AndroidStudioProjects/Tree_Manga/app/src/main/res/drawable/ic_chevron_left_24.xml" value="0.19814814814814816" />
         <entry key="..\:/Users/nguye/AndroidStudioProjects/Tree_Manga/app/src/main/res/drawable/ic_chevron_right_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/Tree_Manga/app/src/main/res/drawable/ic_clear_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/Tree_Manga/app/src/main/res/drawable/ic_close_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/Tree_Manga/app/src/main/res/drawable/ic_filter_list_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/Tree_Manga/app/src/main/res/drawable/ic_local_offer_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/Tree_Manga/app/src/main/res/drawable/ic_search_24.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/nguye/AndroidStudioProjects/Tree_Manga/app/src/main/res/layout/activity_chapter.xml" value="0.25" />
         <entry key="..\:/Users/nguye/AndroidStudioProjects/Tree_Manga/app/src/main/res/layout/activity_filter_search.xml" value="0.2" />
         <entry key="..\:/Users/nguye/AndroidStudioProjects/Tree_Manga/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/nguye/AndroidStudioProjects/Tree_Manga/app/src/main/res/layout/activity_read_manga.xml" value="0.2" />
         <entry key="..\:/Users/nguye/AndroidStudioProjects/Tree_Manga/app/src/main/res/layout/activity_splash.xml" value="0.2" />
         <entry key="..\:/Users/nguye/AndroidStudioProjects/Tree_Manga/app/src/main/res/layout/chapter_book.xml" value="0.2" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/Tree_Manga/app/src/main/res/layout/chip_tags.xml" value="0.22" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/Tree_Manga/app/src/main/res/layout/dialog_option.xml" value="0.2" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/Tree_Manga/app/src/main/res/layout/dialog_search.xml" value="0.19692307692307692" />
         <entry key="..\:/Users/nguye/AndroidStudioProjects/Tree_Manga/app/src/main/res/layout/manga_book.xml" value="0.2" />
         <entry key="..\:/Users/nguye/AndroidStudioProjects/Tree_Manga/app/src/main/res/layout/pager_book.xml" value="0.2" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/Tree_Manga/app/src/main/res/menu/main_menu.xml" value="0.2" />
       </map>
     </option>
   </component>
