@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -147,11 +148,17 @@ public class FilterSearchActivity extends AppCompatActivity {
     private void findFilterCategory(String query) {
         List<Manga> mangaFilter = new ArrayList<>();
         for (Manga manga:Common.mangaList) {
-            if (manga.Category.contains(query)) {
-                mangaFilter.add(manga);
+            if (manga.Category != null) {
+                if (manga.Category.contains(query)) {
+                    mangaFilter.add(manga);
+                }
             }
         }
-        recycler_filter_search.setAdapter(new ForMangaAdapter(getBaseContext(), mangaFilter));
+        if (mangaFilter.size() > 0) {
+            recycler_filter_search.setAdapter(new ForMangaAdapter(getBaseContext(), mangaFilter));
+        } else {
+            Toast.makeText(this,"No find", Toast.LENGTH_SHORT).show();
+        }
     }
 
     private void findSearchManga(String query) {
@@ -160,6 +167,10 @@ public class FilterSearchActivity extends AppCompatActivity {
             if (manga.Name.contains(query))
                 mangaSearch.add(manga);
         }
-        recycler_filter_search.setAdapter(new ForMangaAdapter(getBaseContext(),mangaSearch));
+        if (mangaSearch.size() > 0) {
+            recycler_filter_search.setAdapter(new ForMangaAdapter(getBaseContext(), mangaSearch));
+        } else {
+            Toast.makeText(this,"No find manga", Toast.LENGTH_SHORT).show();
+        }
     }
 }
